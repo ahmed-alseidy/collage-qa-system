@@ -45,11 +45,11 @@ const data = {
       items: [
         {
           title: "Create",
-          url: "#",
+          url: "/dashboard/accounts/create",
         },
         {
           title: "Manage",
-          url: "#",
+          url: "/dashboard/accounts/manage",
         },
       ],
     },

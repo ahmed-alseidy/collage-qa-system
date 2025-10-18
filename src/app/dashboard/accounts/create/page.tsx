@@ -1,3 +1,5 @@
+"use client";
+
 import CreateAccountForm from "./_components/create-account-form";
 
 export default function Page() {

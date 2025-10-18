@@ -1,6 +1,5 @@
 "use client";
 
-import * as React from "react";
 import {
   Bell,
   ChartColumnBig,
@@ -15,6 +14,7 @@ import {
   UserCircle,
   Users,
 } from "lucide-react";
+import type * as React from "react";
 
 import { NavMain } from "@/components/nav-main";
 import { NavUser } from "@/components/nav-user";
@@ -138,7 +138,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
-        <h1 className="text-2xl font-bold text-foreground">QA</h1>
+        <h1 className="text-2xl font-bold text-primary">QA</h1>
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />

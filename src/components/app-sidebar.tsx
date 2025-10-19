@@ -40,7 +40,6 @@ const data = {
     },
     {
       title: "Accounts",
-      url: "#",
       icon: Users,
       items: [
         {
@@ -55,7 +54,6 @@ const data = {
     },
     {
       title: "Unit Data",
-      url: "#",
       icon: Notebook,
       items: [
         {
@@ -79,7 +77,6 @@ const data = {
     },
     {
       title: "Survey",
-      url: "#",
       icon: ChartColumnBig,
       items: [
         {
@@ -108,8 +105,17 @@ const data = {
     },
     {
       title: "Permissions",
-      url: "#",
       icon: ShieldCheck,
+      items: [
+        {
+          title: "Manage",
+          url: "/dashboard/permissions/manage",
+        },
+        {
+          title: "Grant",
+          url: "/dashboard/permissions/grant",
+        },
+      ],
     },
     {
       title: "Tasks",

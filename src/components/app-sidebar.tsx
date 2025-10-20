@@ -95,12 +95,12 @@ const data = {
     },
     {
       title: "About Us Page",
-      url: "#",
+      url: "/dashboard/about-us",
       icon: UserCircle,
     },
     {
       title: "Contact Us Page",
-      url: "#",
+      url: "/dashboard/contact-us",
       icon: Phone,
     },
     {

@@ -119,7 +119,16 @@ const data = {
     },
     {
       title: "Tasks",
-      url: "#",
+      items: [
+        {
+          title: "Add Task",
+          url: "/dashboard/tasks/add-task",
+        },
+        {
+          title: "View Task",
+          url: "/dashboard/tasks/view-task",
+        },
+      ],
       icon: ListChecks,
     },
     {

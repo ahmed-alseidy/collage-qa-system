@@ -140,6 +140,16 @@ const data = {
       title: "Files",
       url: "#",
       icon: Files,
+      items: [
+        {
+          title: "Upload",
+          url: "/dashboard/file/upload-file",
+        },
+        {
+          title: "Create",
+          url: "/dashboard/file/create-file",
+        },
+      ],
     },
     {
       title: "Memories",

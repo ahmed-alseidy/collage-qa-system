@@ -119,7 +119,16 @@ const data = {
     },
     {
       title: "Tasks",
-      url: "#",
+      items: [
+        {
+          title: "Add Task",
+          url: "/dashboard/tasks/add-task",
+        },
+        {
+          title: "View Task",
+          url: "/dashboard/tasks/view-task",
+        },
+      ],
       icon: ListChecks,
     },
     {
@@ -131,6 +140,16 @@ const data = {
       title: "Files",
       url: "#",
       icon: Files,
+      items: [
+        {
+          title: "Upload",
+          url: "/dashboard/file/upload-file",
+        },
+        {
+          title: "Create",
+          url: "/dashboard/file/create-file",
+        },
+      ],
     },
     {
       title: "Memories",

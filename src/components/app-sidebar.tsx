@@ -2,6 +2,7 @@
 
 import {
   Bell,
+  Book,
   ChartColumnBig,
   Clock,
   Files,
@@ -58,15 +59,11 @@ const data = {
       items: [
         {
           title: "Add",
-          url: "#",
+          url: "/dashboard/unit-data/add",
         },
         {
           title: "Edit",
-          url: "#",
-        },
-        {
-          title: "Delete",
-          url: "#",
+          url: "/dashboard/unit-data/edit",
         },
       ],
     },
@@ -78,20 +75,7 @@ const data = {
     {
       title: "Survey",
       icon: ChartColumnBig,
-      items: [
-        {
-          title: "Add",
-          url: "#",
-        },
-        {
-          title: "Edit",
-          url: "#",
-        },
-        {
-          title: "Delete",
-          url: "#",
-        },
-      ],
+      url: "/dashboard/survey",
     },
     {
       title: "About Us Page",
@@ -153,8 +137,22 @@ const data = {
     },
     {
       title: "Memories",
-      url: "#",
+      url: "/dashboard/memories",
       icon: Clock,
+    },
+    {
+      title: "Standards",
+      icon: Book,
+      items: [
+        {
+          title: "Institutional Standard",
+          url: "/dashboard/standards/institutional",
+        },
+        {
+          title: "Program Standard",
+          url: "/dashboard/standards/program",
+        },
+      ],
     },
   ],
 };

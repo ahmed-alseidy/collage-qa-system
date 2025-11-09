@@ -117,7 +117,7 @@ const data = {
     },
     {
       title: "Compliant Suggestions",
-      url: "#",
+      url: "/dashboard/complaint",
       icon: Bell,
     },
     {
